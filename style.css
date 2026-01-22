@@ -1,19 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family: "Inter", sans-serif;
-}
-
-
-
 /* shared style */
+
+.font_inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
 
 .btn{
    background-color: #469165;
@@ -230,3 +226,57 @@ img:hover{
 }
 
 /* notes section end */
+
+
+/* brain section start */
+
+.brain_section{
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  gap: 60px;
+}
+
+.brain_img img{
+  border-radius: 12px;
+}
+
+.brain_note .brain_head h5{
+  font-size: 16px;
+  font-weight: 500;
+  color: #469165;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.brain_note .brain_head h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.brain_note .brain_head p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+
+.brain_note .brain_content {
+  margin-top: 40px;
+}
+
+.brain_note .brain_content p{
+  font-size: 16px;
+  font-weight: 500;
+  color: #001931;
+  line-height: 20px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;    
+  gap: 6px;          
+}
+
+/* brain section end */
