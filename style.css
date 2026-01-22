@@ -146,7 +146,7 @@
   gap: 16px;
 }
 
-.hero_content_4 .hero_btn_2{
+.hero_btn_2{
  display: flex;
  gap: 10px;
 }
@@ -280,3 +280,45 @@ img:hover{
 }
 
 /* brain section end */
+
+/* Early access section start */
+
+.early_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #F7F6F2;
+  border-radius: 12px;
+  padding: 80px 40px ;
+  margin-top: 120px;
+  height: 384px;
+}
+
+.early_section .early_head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.early_section .early_head h3{
+  font-size: 40px;
+  font-weight: bold;
+  color:#001931;
+  margin-bottom: 16px;
+}
+
+.early_section .early_head p{
+  font-size:16px;
+  line-height: 24px;
+  color: #627382;
+}
+
+.early_section .early_footer{
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+
+/* Early access section end */
